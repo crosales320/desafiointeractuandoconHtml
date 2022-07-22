@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(#c93384, #ff69b4);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+.peliculas {
+    background-color: #5ff4ab ;
+    margin: 10 px;
+    padding: 110 px;
+    color: white;
+}
+
+
+

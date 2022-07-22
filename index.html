@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CINE: El Cinecito</h1>
+
+    <div id="peliculas" class="row" style="padding-left: 110px" ></div>
+
+    <div class="container">
+        <form id="idForm">
+            <div class="mb-3">
+                <label for="idUser" class="form-label">Que pelicula quiere ver?</label>
+                <input type="text" class="form-control" id="idUser">
+            </div>
+            <div class="mb-3">
+                <label for="idHorario" class="form-label">En que horario?</label>
+                <input type="horario" class="form-control" id="idHorario">
+            </div>
+            <div class="mb-3">
+                <label for="idEntradas" class="form-label">Cuantas Entradas?</label>
+                <input type="entradas" class="form-control" id="idEntradas">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Comprar</button>
+        </form>
+    </div><br><br>
+
+    <div class="container">
+        <button id="botonUsers" class="btn btn-dark">Mostrar Compra</button><br><br>
+        <div id="divUsers" class="row"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
